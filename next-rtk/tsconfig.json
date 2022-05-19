@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/features/cake/cakeView.tsx"  ],
   "exclude": [
     "node_modules"
   ]
