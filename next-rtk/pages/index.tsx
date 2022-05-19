@@ -16,9 +16,15 @@ export default function Home() {
 
       <main>
         <div>
-          <CakeView />
-          <IcecreamView />
-          <UsersView />
+          <div className="flex flex-col gap-6 justify-center items-center ">
+            <CakeView />
+          </div>
+          <div className="flex flex-col gap-6 justify-center items-center ">
+            <IcecreamView />
+          </div>
+          <div className="flex flex-col gap-6 justify-center items-center ">
+            <UsersView />
+          </div>
         </div>
       </main>
 
