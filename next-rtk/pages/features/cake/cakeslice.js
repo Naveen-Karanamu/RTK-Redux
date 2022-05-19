@@ -1,4 +1,4 @@
-const createSlice =require('@reduxjs/toolkit').createSlice
+import { createSlice,createAsyncThunk } from "@reduxjs/toolkit"
 
 const initialState={
     numbOfCakes:10
@@ -18,5 +18,5 @@ const cakeSlice =createSlice({
 
 })
 
-module.exports=cakeSlice.reducer
-module.exports.cakeActions=cakeSlice.actions  
+export default cakeSlice.reducer
+export const {ordered,restocked}= cakeSlice.actions  
