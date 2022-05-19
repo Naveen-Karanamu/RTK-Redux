@@ -1,4 +1,4 @@
-const CakeView = () => {
+const UsersView = () => {
     return (
       <>
         <div>
@@ -8,4 +8,4 @@ const CakeView = () => {
     );
   };
   
-  export default CakeView
+  export default UsersView
