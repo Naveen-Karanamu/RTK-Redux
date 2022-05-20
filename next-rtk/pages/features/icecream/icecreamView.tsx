@@ -1,10 +1,11 @@
 import { useSelector, useDispatch } from "react-redux";
 import { setConstantValue } from "typescript";
 import { ordered,restocked } from "./icecreamSlice";
+import { useAppDispatch,useAppSelector } from "../../app/hooks";
 
 const IcecreamView = () => {
-  const numbOfIcecreams=useSelector((state)=>state.icecream.numOfIcecreams)
-  const dispatch=useDispatch()
+  const numbOfIcecreams=useAppSelector((state)=>state.icecream.numOfIcecreams)
+  const dispatch=useAppDispatch()
     return (
       <>
         <div>
